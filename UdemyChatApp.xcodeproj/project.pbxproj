@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60145426E39DE21CBE3D36C5 /* Pods_UdemyChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CED24B89B24EC18A461BE5C /* Pods_UdemyChatApp.framework */; };
+		6919F37B2187E6B100FE4DE6 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919F3792187E6B100FE4DE6 /* MessageCell.swift */; };
+		6919F37C2187E6B100FE4DE6 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6919F37A2187E6B100FE4DE6 /* MessageCell.xib */; };
+		6939554021869EED00516CFB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6939553F21869EED00516CFB /* RegisterViewController.swift */; };
+		693955422187DE3F00516CFB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693955412187DE3F00516CFB /* ChatViewController.swift */; };
+		693955442187E20600516CFB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693955432187E20600516CFB /* LoginViewController.swift */; };
+		697FC80F21863204007D70FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697FC80E21863204007D70FF /* AppDelegate.swift */; };
+		697FC81121863204007D70FF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697FC81021863204007D70FF /* WelcomeViewController.swift */; };
+		697FC81421863204007D70FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697FC81221863204007D70FF /* Main.storyboard */; };
+		697FC81621863205007D70FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697FC81521863205007D70FF /* Assets.xcassets */; };
+		697FC81921863205007D70FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697FC81721863205007D70FF /* LaunchScreen.storyboard */; };
+		697FC8212186329F007D70FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697FC8202186329F007D70FF /* GoogleService-Info.plist */; };
+		69E293552189A216008E4E17 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E293542189A216008E4E17 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0148F2F241AAA0E6AD6874C9 /* Pods-UdemyChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdemyChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UdemyChatApp/Pods-UdemyChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6919F3792187E6B100FE4DE6 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		6919F37A2187E6B100FE4DE6 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		6939553F21869EED00516CFB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		693955412187DE3F00516CFB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		693955432187E20600516CFB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		697FC80B21863204007D70FF /* UdemyChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		697FC80E21863204007D70FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		697FC81021863204007D70FF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		697FC81321863204007D70FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		697FC81521863205007D70FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		697FC81821863205007D70FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		697FC81A21863205007D70FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697FC8202186329F007D70FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69E293542189A216008E4E17 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7CED24B89B24EC18A461BE5C /* Pods_UdemyChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UdemyChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F004456713F26BCC78E3C17 /* Pods-UdemyChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdemyChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-UdemyChatApp/Pods-UdemyChatApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		697FC80821863204007D70FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60145426E39DE21CBE3D36C5 /* Pods_UdemyChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE972A698E1897872832BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0148F2F241AAA0E6AD6874C9 /* Pods-UdemyChatApp.debug.xcconfig */,
+				8F004456713F26BCC78E3C17 /* Pods-UdemyChatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39323658A6E4A06411E3A862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CED24B89B24EC18A461BE5C /* Pods_UdemyChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6919F3782187E67A00FE4DE6 /* MessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				6919F3792187E6B100FE4DE6 /* MessageCell.swift */,
+				6919F37A2187E6B100FE4DE6 /* MessageCell.xib */,
+			);
+			path = MessageCell;
+			sourceTree = "<group>";
+		};
+		693955452187E21C00516CFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				697FC80E21863204007D70FF /* AppDelegate.swift */,
+				693955412187DE3F00516CFB /* ChatViewController.swift */,
+				693955432187E20600516CFB /* LoginViewController.swift */,
+				6939553F21869EED00516CFB /* RegisterViewController.swift */,
+				697FC81021863204007D70FF /* WelcomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		693955462187E22C00516CFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6919F3782187E67A00FE4DE6 /* MessageCell */,
+				697FC81721863205007D70FF /* LaunchScreen.storyboard */,
+				697FC81221863204007D70FF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		693955472187E23400516CFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69E293542189A216008E4E17 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		693955482187E24C00516CFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				697FC8202186329F007D70FF /* GoogleService-Info.plist */,
+				697FC81521863205007D70FF /* Assets.xcassets */,
+				697FC81A21863205007D70FF /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		697FC80221863204007D70FF = {
+			isa = PBXGroup;
+			children = (
+				697FC80D21863204007D70FF /* UdemyChatApp */,
+				697FC80C21863204007D70FF /* Products */,
+				0FE972A698E1897872832BD6 /* Pods */,
+				39323658A6E4A06411E3A862 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		697FC80C21863204007D70FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				697FC80B21863204007D70FF /* UdemyChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		697FC80D21863204007D70FF /* UdemyChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				693955452187E21C00516CFB /* Controller */,
+				693955472187E23400516CFB /* Model */,
+				693955482187E24C00516CFB /* Supporting Files */,
+				693955462187E22C00516CFB /* View */,
+			);
+			path = UdemyChatApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		697FC80A21863204007D70FF /* UdemyChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697FC81D21863205007D70FF /* Build configuration list for PBXNativeTarget "UdemyChatApp" */;
+			buildPhases = (
+				1A788C9ED9A43BC0E9A3CB6D /* [CP] Check Pods Manifest.lock */,
+				697FC80721863204007D70FF /* Sources */,
+				697FC80821863204007D70FF /* Frameworks */,
+				697FC80921863204007D70FF /* Resources */,
+				948E46CC283B4971DB9C3AB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdemyChatApp;
+			productName = UdemyChatApp;
+			productReference = 697FC80B21863204007D70FF /* UdemyChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		697FC80321863204007D70FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Cristian Misael Almendro Lazarte";
+				TargetAttributes = {
+					697FC80A21863204007D70FF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 697FC80621863204007D70FF /* Build configuration list for PBXProject "UdemyChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 697FC80221863204007D70FF;
+			productRefGroup = 697FC80C21863204007D70FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				697FC80A21863204007D70FF /* UdemyChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		697FC80921863204007D70FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6919F37C2187E6B100FE4DE6 /* MessageCell.xib in Resources */,
+				697FC81921863205007D70FF /* LaunchScreen.storyboard in Resources */,
+				697FC8212186329F007D70FF /* GoogleService-Info.plist in Resources */,
+				697FC81621863205007D70FF /* Assets.xcassets in Resources */,
+				697FC81421863204007D70FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A788C9ED9A43BC0E9A3CB6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UdemyChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948E46CC283B4971DB9C3AB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UdemyChatApp/Pods-UdemyChatApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UdemyChatApp/Pods-UdemyChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		697FC80721863204007D70FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6939554021869EED00516CFB /* RegisterViewController.swift in Sources */,
+				697FC81121863204007D70FF /* WelcomeViewController.swift in Sources */,
+				693955422187DE3F00516CFB /* ChatViewController.swift in Sources */,
+				693955442187E20600516CFB /* LoginViewController.swift in Sources */,
+				697FC80F21863204007D70FF /* AppDelegate.swift in Sources */,
+				6919F37B2187E6B100FE4DE6 /* MessageCell.swift in Sources */,
+				69E293552189A216008E4E17 /* Message.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		697FC81221863204007D70FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				697FC81321863204007D70FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		697FC81721863205007D70FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				697FC81821863205007D70FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		697FC81B21863205007D70FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		697FC81C21863205007D70FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		697FC81E21863205007D70FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0148F2F241AAA0E6AD6874C9 /* Pods-UdemyChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VFG22J23H;
+				INFOPLIST_FILE = "$(SRCROOT)/UdemyChatApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CristianAlmendro.UdemyChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		697FC81F21863205007D70FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F004456713F26BCC78E3C17 /* Pods-UdemyChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VFG22J23H;
+				INFOPLIST_FILE = "$(SRCROOT)/UdemyChatApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CristianAlmendro.UdemyChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		697FC80621863204007D70FF /* Build configuration list for PBXProject "UdemyChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697FC81B21863205007D70FF /* Debug */,
+				697FC81C21863205007D70FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		697FC81D21863205007D70FF /* Build configuration list for PBXNativeTarget "UdemyChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697FC81E21863205007D70FF /* Debug */,
+				697FC81F21863205007D70FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 697FC80321863204007D70FF /* Project object */;
+}
